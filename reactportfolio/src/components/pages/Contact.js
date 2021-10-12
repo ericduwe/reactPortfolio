@@ -1,7 +1,8 @@
 import React from 'react';
-import '../style.css'
+import '../../style.css';
+import profPhoto from '../../assets/images/profile-photo.jpg';
 
-function Contact() {
+export default function Contact() {
 return (
 <div>
 <section id="contact" classNameName="hero is-fullheight">
@@ -21,7 +22,7 @@ return (
                     </div>
                     <div className="block tile is-4 contact-item">
                         <figure className="level-item image is-16by16">
-                            <img src="./assets/images/profile-photo.jpg" alt="profile photo" className="is-rounded" id="profile-photo" />
+                            <img src={profPhoto} alt="profile photo" className="is-rounded" id="profile-photo" />
                         </figure>
                     </div>
                 </div>        
@@ -30,4 +31,3 @@ return (
 )
 }
 
-export default Contact;

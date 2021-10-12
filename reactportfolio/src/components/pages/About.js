@@ -1,7 +1,7 @@
 import React from 'react';
-import '../style.css'
+import '../../style.css'
 
-function AboutMe() {
+export default function AboutMe() {
 return (
 <div>
     <section id="about-me" className="hero is-fullheight">
@@ -20,5 +20,5 @@ return (
 )
 }
 
-export default AboutMe;
+
 

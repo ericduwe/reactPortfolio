@@ -72,8 +72,8 @@ nav a:hover {
 
 /*Styling for each section's header*/
 .section-heading {
-    background-color: grey;
-    color: var(--primary);
+    /* background-color: grey; */
+    color: black;
     width: 60%;
     font-family: 'Staatliches';
     font-size: 75px;
@@ -110,8 +110,8 @@ article p {
 
 /*My Work Section*/
 #portfolio {
-    height: 1200px;
-    background-color: grey      
+    /* height: 1200px; */
+    background-color: var(--primary);    
 }
 
 
@@ -119,7 +119,7 @@ article p {
 #portfolio a {
     list-style-type: none;
     text-decoration: none;
-    color: var(--primary);
+    color: black;
     
     font-family: "Staatliches";   
 }
@@ -127,7 +127,7 @@ article p {
 #portfolio a:hover {
     list-style-type: none;
     text-decoration: none;
-    color: #beb294;
+    color: white;
     
     font-family: "Staatliches";    
 }
