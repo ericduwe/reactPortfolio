@@ -13,7 +13,6 @@ return (
 
 <section id="portfolio" className="hero is-fullheight">
             <div className="hero-body">
-                <h2 className="section-heading title">My Work</h2>
                 <div className="tile is-parent is-12" id="project-grid">
                     <div className="tile is-child project-card">
                         <a className="project-link" href="https://jpolmon.github.io/Project01/" target="_blank"><figure className="image is-3by2" ><img src={project1}/></figure>Custom Homepage</a>{"\n"}<a className="repo-link" href="https://github.com/jpolmon/Project01" target="_blank">Github Repo</a>
