@@ -19,7 +19,7 @@ function Nav({currentPage, handlePageChange}) {
             </a>
         </div> 
         <h6>Web Development Portfolio</h6>
-        <ul className={`navbar-menu ${isActive ? "is-active" : ""}`} id="navbar-menu">
+        <ul className={`navbar-menu ${isActive ? "is-active" : ""}`} className={"has-background-grey-light"} id="navbar-menu">
             <div className="navbar-start">
                 <li className={currentPage === 'About' ? 'nav-item-clicked' : 'navbar-item'}><a href="#about-me" onClick={() => handlePageChange("About")}>About Me</a></li>
                 <li className={currentPage === 'MyWork' ? 'nav-item-clicked' : 'navbar-item'}><a href="#portfolio" onClick={() => handlePageChange('MyWork')}>My Work</a></li>
