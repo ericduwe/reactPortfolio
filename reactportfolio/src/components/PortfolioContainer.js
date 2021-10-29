@@ -3,6 +3,7 @@ import Nav from './Nav';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import MyWork from './pages/MyWork';
+import CV from './pages/CV';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -15,6 +16,9 @@ export default function PortfolioContainer() {
     if (currentPage === 'MyWork') {
       return <MyWork />;
     }
+    if (currentPage === 'CV') {
+      return <CV />;
+    }
     return <Contact />;
   };
 
@@ -26,6 +30,13 @@ export default function PortfolioContainer() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <footer className="footer has-background-grey-light">
+        <div className="content has-text-centered">
+          <p>
+            <strong>© Eric Duwe, 2021</strong>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

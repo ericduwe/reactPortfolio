@@ -7,7 +7,7 @@ export default function Contact() {
 return (
 <div>
 <section id="contact" className="hero is-fullheight">
-                <div className="container contact-grid">
+                <div className="contact-grid content-box" id="contact-box">
                     <div className="block tile contact-item">
                         <p></p>
                     </div> 

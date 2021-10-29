@@ -3,7 +3,11 @@
 
 /*variables*/
 :root {
-    --primary: #cda542;
+    --primary: #ffba0a;
+    --opal: #9e9e9e;
+    --queenBlue: #4D7298;
+
+
 }
 
 /*Scroll settings for page*/
@@ -22,39 +26,42 @@ body {
 
 /*Nav bar styling*/
 
-/* .navbar-start {
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-} */
+#main-menu {
+    background-color: #4D7298;
+}
+
+.content-box {
+    background-color: var(--opal);
+    color: #ffffff;
+}
 
 nav a {
-    margin-right: 150px;
+    margin-right: 20px;
     font-family: "Staatliches";
     font-size: 60px;
-    
+    justify-content: center;
     text-decoration: none;
-    color: #000
+    color: #ffffff
     
 }
 
 .nav-item-clicked {
-    margin-right: 150px;
+    margin-right: 20px;
     font-family: "Staatliches";
     font-size: 60px;
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     background-color: var(--primary);
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 
 
 nav a:hover {
-    margin-right: 150px;
+    margin-right: 20px;
     font-family: "Staatliches";
     font-size: 60px;
-    color: gray;
+    color: var(--opal);
     text-decoration: none;
     font-weight: bold;
 }
@@ -63,21 +70,15 @@ nav a:hover {
 
     font-family: "Staatliches";
     font-size: 100px;
-    color: #000;
+    color: #ffffff;
 
     
 }
-.navbar h6 {
-    font-family: "Staatliches";
-    font-size: 25px;
-    color: #000;
-    margin-left: 15px;
-
-}
 
 #burger {
-    width: 100px;
-    height: 200px;
+
+    height: 150px;
+    color: white;
 }
 
 
@@ -98,6 +99,8 @@ nav a:hover {
     background-color: var(--primary);
     
 }
+
+
 
 #about-me h2 {
     background-color: var(--primary);
@@ -126,11 +129,14 @@ article p {
 }
 
 
+strong {
+    color: white;
+}
 
 #portfolio a {
     list-style-type: none;
     text-decoration: none;
-    color: black;
+    color: white;
     
     font-family: "Staatliches";   
 }
@@ -138,7 +144,7 @@ article p {
 #portfolio a:hover {
     list-style-type: none;
     text-decoration: none;
-    color: white;
+    color: #4D7298;
     
     font-family: "Staatliches";    
 }
@@ -159,7 +165,6 @@ article p {
 
 /*Contact Section*/
 #contact h2 {
-    width: 100%;
     text-align: center;
     background-color: var(--primary);
     color: #000;
@@ -167,13 +172,20 @@ article p {
 
 #contact {
     background-color: var(--primary);
+
 }
 
 .contact-grid {
-    width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
+}
+
+#contact-box {
+    margin: 80px;
+    padding: 20px;
 }
 
 
@@ -186,7 +198,7 @@ article p {
 #contact a {
     font-family: "Staatliches";
     font-size: 30px;
-    color: black;
+    color: white;
     text-decoration: none;
     
 }
@@ -196,7 +208,7 @@ article p {
     font-family: "Staatliches";
     font-size: 30px;
     font-weight: bold;
-    color: grey;
+    color: var(--queenBlue);
     text-decoration: none;
 }
 
@@ -209,20 +221,19 @@ article p {
 /* Changes for smaller screen devices */
 @media screen and (max-width: 768px) {
     nav a {
-        margin-right: 250px;
+        
         font-family: "Staatliches";
-        font-size: 20px;
+        font-size: 40px;
         text-decoration: none;
-        color: #000;
+        color: white;
     }
     
     nav a:hover {
-        margin-right: 250px;
         display: flex;
         justify-content: space-between;
         font-family: "Staatliches";
-        font-size: 20px;
-        color: gray;
+        font-size: 40px;
+        color: var(--opal);
         text-decoration: none;
         font-weight: bold;
     }
@@ -230,8 +241,8 @@ article p {
     .navbar-brand h1 {
 
         font-family: "Staatliches";
-        font-size: 70px;
-        color: #000;
+        font-size: 90px;
+        color: white;
     
         
     }
@@ -241,6 +252,13 @@ article p {
         color: var(--primary);
         font-family: 'Staatliches';
         font-size: 35px;
+    }
+  
+
+    #navbar-menu {
+        background-color: var(--queenBlue);
+        justify-content: center;
+        width: 100%;
     }
 
 }
