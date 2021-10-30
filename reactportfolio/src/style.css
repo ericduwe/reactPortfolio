@@ -22,7 +22,9 @@ body {
 
 /* Styling for main header and subheader at top of page */
 
-
+h3 {
+    font-size: 40px;
+}
 
 /*Nav bar styling*/
 
@@ -184,7 +186,7 @@ strong {
 }
 
 #contact-box {
-    margin: 80px;
+    margin: 50px;
     padding: 20px;
 }
 

@@ -12,7 +12,7 @@ return (
                         <p></p>
                     </div> 
                     <div className="block tile contact-item">
-                        <h3>I'd love to work with you! Contact me for more info:</h3>
+                        <h3 className="title is-3">I'd love to work with you! Contact me for more info:</h3>
                     </div> 
                     <div className="block tile contact-item">
                         <h4><a href="mailto:ericduwe@gmail.com">ericduwe@gmail.com</a></h4>

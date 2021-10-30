@@ -10,13 +10,6 @@ function Nav({currentPage, handlePageChange}) {
     <nav className="navbar is-spaced" role="navigation" aria-label="main navigation" id="main-menu">
         <div className ="navbar-brand block">
             <h1 className="block navbar-item">Eric Duwe</h1>
-            {/* <a onClick={() => {
-              setisActive(!isActive);
-            }} role="button" className={`navbar-burger burger ${isActive ? "is-active" : ""}`} aria-label="menu" aria-expanded="false" id="burger" data-target="navbar-menu" onclick='toggleBurger()'>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a> */}
         </div> 
         
         <ul className="navbar-menu is-active" id="navbar-menu">
@@ -32,4 +25,3 @@ function Nav({currentPage, handlePageChange}) {
 }
 
 export default Nav
-// ${isActive ? "is-active" : ""}

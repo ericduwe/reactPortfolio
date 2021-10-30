@@ -10,7 +10,7 @@ export default function AboutMe() {
             <img src={profPhoto} alt="profile photo" />
           </p>
           <p className="content-box p-3" style={{ maxWidth: "800px" }}>
-            <h3>Bio</h3>
+            <strong className="title is-3">Bio</strong>
             <p id="about-me-text">
               I’m a full-stack JavaScript developer with a professional
               background in project management. I have my undergraduate degrees
@@ -23,9 +23,9 @@ export default function AboutMe() {
               live in Dallas with my partner and our three dogs: Remy, Maxy, and
               Flint.
             </p>
-            <h3>Primary Languages</h3>
+            <strong className="title is-3">Primary Languages</strong>
             <p>HTML5, CSS, JavaScript</p>
-            <h3>Technologies, Frameworks, and Libraries I work with</h3>
+            <strong className="title is-3">Technologies, Frameworks, and Libraries I work with</strong>
             <p>
               React.js, node.js, Express.js, mySQL, Sequelize, MongoDB,
               Mongoose, GraphQL, REST APIs, Bulma, Bootstrap, Github, Heroku
