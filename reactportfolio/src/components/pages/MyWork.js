@@ -160,35 +160,7 @@ export default function MyWork() {
               Mongoose, MongoDB, Express.js, Web Manifest, Service Worker
             </p>
           </div>
-          <div className="tile is-child project-card">
-            <a
-              className="project-link"
-              href="https://ancient-reaches-73596.herokuapp.com/"
-            >
-              <figure className="image is-3by2">
-                <img src={noteTaker} />
-              </figure>
-              Digital Note Taker
-            </a>
-            
-            <p>
-              <a
-                className="repo-link"
-                href="https://github.com/ericduwe/noteTaker"
-                target="_blank"
-              >
-                Github Repo
-              </a>
-            </p>
-            <p>
-              <strong>About: </strong>Node app that can be used to record and
-              save simple notes
-            </p>
-            <p>
-              <strong>Technologies: </strong>Node.js, Express.js, JavaScript,
-              HTML5
-            </p>
-          </div>
+
         </div>
         
       </div>
