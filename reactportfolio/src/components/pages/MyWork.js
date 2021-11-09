@@ -15,18 +15,18 @@ export default function MyWork() {
           <div className="tile is-child project-card">
             <a
               className="project-link"
-              href="https://jpolmon.github.io/Project01/"
+              href="https://jpolmon.github.io/NewTabHomepage/"
               target="_blank"
             >
               <figure className="image is-3by2">
                 <img src={project1} />
               </figure>
-              Custom Homepage
+              Custom Homepage*
             </a>
             <p>
               <a
                 className="repo-link"
-                href="https://github.com/jpolmon/Project01"
+                href="https://github.com/jpolmon/NewTabHomepage"
                 target="_blank"
               >
                 Github Repo
@@ -69,7 +69,7 @@ export default function MyWork() {
               when relevant
             </p>
             <p>
-              <strong>Technologies: </strong>HTML5, CSS3, JavaScript, APIs
+              <strong>Technologies: </strong>HTML5, CSS3, JavaScript, APIs, Bootstrap, Bulma
             </p>
           </div>
           <div className="tile is-child project-card">
@@ -80,7 +80,7 @@ export default function MyWork() {
               <figure className="image is-3by2">
                 <img src={exerciseLog} />
               </figure>
-              myWorkoutLog
+              myWorkoutLog*
             </a>
             
             <p>
@@ -110,7 +110,7 @@ export default function MyWork() {
               <figure className="image is-3by2">
                 <img src={studentPortal} />
               </figure>
-              Student Portal
+              Student Portal*
             </a>
             
             <p>
@@ -190,7 +190,9 @@ export default function MyWork() {
             </p>
           </div>
         </div>
+        
       </div>
+      <p className="hero-body">* - Project created in collaboration with other developers and/or classmates</p>
     </section>
   );
 }

@@ -24,11 +24,11 @@ export default function AboutMe() {
               Flint.
             </p>
             <strong className="title is-3">Primary Languages</strong>
-            <p>HTML5, CSS, JavaScript</p>
+            <p>HTML5, CSS, JavaScript, SQL, C#</p>
             <strong className="title is-3">Technologies, Frameworks, and Libraries I work with</strong>
             <p>
               React.js, node.js, Express.js, mySQL, Sequelize, MongoDB,
-              Mongoose, GraphQL, REST APIs, Bulma, Bootstrap, Github, Heroku
+              Mongoose, GraphQL, REST APIs, Bulma, Bootstrap, Github, Heroku, .NET
             </p>
           </p>
         </div>
